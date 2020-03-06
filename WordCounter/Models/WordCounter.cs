@@ -9,7 +9,7 @@ namespace WordCounter.Models
     {
       int count = 0;
 
-      string[] sampleArray = sample.ToLower().Split(" ");
+      string[] sampleArray = sample.ToLower().Split("");
 
       foreach(var item in sampleArray)
       {

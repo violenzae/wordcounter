@@ -14,5 +14,13 @@ namespace WordCounter.Tests
 
       Assert.AreEqual(3, Word.Counter(word, sample));
     }
+    [TestMethod]
+    public void Counter_ReturnOccurencesNoSpace_int()
+    {
+      string word = "a";
+      string sample = "aaa a";
+
+      Assert.AreEqual(1, Word.Counter(word, sample));
+    }
   }
 }
