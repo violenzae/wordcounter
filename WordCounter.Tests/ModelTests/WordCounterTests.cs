@@ -38,13 +38,13 @@ namespace WordCounter.Tests
 
     Assert.AreEqual(message, Word.EndState(count));
     }
-    //     [TestMethod]
-    // public void EndState_ReturnMessageXOccurence_string()
-    // {
-    // int count = 7;
-    // string message = "This word appeared 7 times.";
+        [TestMethod]
+    public void EndState_ReturnMessageXOccurence_string()
+    {
+    int count = 7;
+    string message = "This word appeared 7 times.";
 
-    // Assert.AreEqual(message, Word.EndState(count));
-    // }
+    Assert.AreEqual(message, Word.EndState(count));
+    }
   }
 }
