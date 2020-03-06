@@ -8,7 +8,7 @@ namespace WordCounter.Models
     public static int Counter(string word, string sample)
     {
       int count = 0;
-      char[] punctuation = { ' ', ',' , '.', ':', ';', '[', ']', '(', ')'};
+      char[] punctuation = { ' ', ',' , '.', ':', ';', '[', ']', '(', ')', '"', '\''};
 
       string[] sampleArray = sample.ToLower().Split(punctuation);
 
