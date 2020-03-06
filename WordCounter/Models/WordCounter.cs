@@ -30,7 +30,7 @@ namespace WordCounter.Models
       }
       else
       {
-        return ":)";
+        return "This word appeared " + count + " times.";
       }
     }
   }
