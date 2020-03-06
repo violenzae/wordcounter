@@ -26,7 +26,7 @@ namespace WordCounter.Models
     {
       if (count == 0)
       {
-        return ":(";
+        return "Sorry, there were no occurences. Check your spelling, or try another combination!";
       }
       else
       {

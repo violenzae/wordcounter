@@ -36,7 +36,15 @@ namespace WordCounter.Tests
     int count = 0;
     string message ="Sorry, there were no occurences. Check your spelling, or try another combination!";
 
-    Assert.AreEqual(message, Word.EndState(0));
+    Assert.AreEqual(message, Word.EndState(count));
     }
+    //     [TestMethod]
+    // public void EndState_ReturnMessageXOccurence_string()
+    // {
+    // int count = 7;
+    // string message = "This word appeared 7 times.";
+
+    // Assert.AreEqual(message, Word.EndState(count));
+    // }
   }
 }
