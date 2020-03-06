@@ -30,5 +30,13 @@ namespace WordCounter.Tests
 
       Assert.AreEqual(3, Word.Counter(word,sample));
     }
+    [TestMethod]
+    public void EndState_ReturnMessageNoOccurence_string()
+    {
+    int count = 0;
+    string message ="Sorry, there were no occurences. Check your spelling, or try another combination!";
+
+    Assert.AreEqual(message, Word.EndState(0));
+    }
   }
 }

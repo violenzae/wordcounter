@@ -22,5 +22,16 @@ namespace WordCounter.Models
       }
       return count;
     }
+    public static string EndState(int count)
+    {
+      if (count == 0)
+      {
+        return ":(";
+      }
+      else
+      {
+        return ":)";
+      }
+    }
   }
 }
