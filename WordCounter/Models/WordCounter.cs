@@ -22,7 +22,7 @@ namespace WordCounter.Models
       }
       return count;
     }
-    public static string EndState(int count)
+    public static string EndState(int count, string word)
     {
       if (count == 0)
       {

@@ -21,7 +21,8 @@
 | returns an integer for occurences | reference word: "a" string: "a A a"            | 3 |
 | in occurrences without spaces between letters, does not recognize | reference word: "a", string: "aaa a"     |1 |
 |returns the correct occurences in strings with more complicated grammar notation   | reference word: "sight", “It was love at first sight, at last sight, at ever and ever sight.”            | 3 |
-| returns a message for no occurences   |  reference word: "yahtzee", string: “if a violin string could ache, i would be that string.”          | "This word doesn't occur in the entered text." |
+| returns a message for no occurences   |  reference word: "yahtzee", string: “if a violin string could ache, i would be that string.”          | "Sorry, there were no occurences. Check your spelling, or try another combination!" |
+| returns a message for X occurences   |  reference word: "loved", string: I loved you. I was a pentapod monster, but I loved you.”          | "The word 'loved' appeared 7 times." |
 
 
 ## Known Bugs
