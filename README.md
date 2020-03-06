@@ -6,6 +6,7 @@
 
 ## Description
 
+_This is a C# terminal-based program that takes in a word input and a sentence/text input. It runs through the sentence/text input and checks for occurrences of the entered 'word' and prints the total instances. It was created using C#. It uses branching logic, methods and MSTEST. It uses a Figlet font for the banner._
 
 ## Setup/Installation Requirements
 
