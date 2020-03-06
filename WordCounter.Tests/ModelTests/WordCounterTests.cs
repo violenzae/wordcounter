@@ -22,5 +22,13 @@ namespace WordCounter.Tests
 
       Assert.AreEqual(1, Word.Counter(word, sample));
     }
+    [TestMethod]
+    public void Counter_ReturnOccurencesPunctuation_int()
+    {
+      string word = "sight";
+      string sample = "It was love at first sight, at last sight, at ever and ever sight.";
+
+      Assert.AreEqual(3, Word.Counter(word,sample));
+    }
   }
 }
