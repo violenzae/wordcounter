@@ -13,7 +13,6 @@ _This is a C# terminal-based program that takes in a word input and a sentence/t
 
 * _Clone or download from Github Repository._
 * _Install .NET Core SDK_
-* _In the terminal, run "dotnet add package Figgle"_
 * _In the terminal in the root directory, type "dotnet run"._
 
 ## Specifications
